@@ -22,7 +22,7 @@ def get_external_links() -> dict[str,str]:
         "PLEXOS_World_MESSAGEix_GLOBIOM_Softlink.xlsx" :
         "https://dataverse.harvard.edu/api/access/datafile/6040815",
 
-        "ember_yearly_electricity_data.csv" :
+        "ember_yearly_electricity_data2.csv" :
         "https://storage.googleapis.com/emb-prod-bkt-publicdata/public-downloads/yearly_full_release_long_format.csv",
         
         "GTD_existing.csv" :
