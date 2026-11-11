@@ -148,7 +148,23 @@ nodes_to_add: null
 nodes_to_remove: null
 reserve_margin: null
 reserve_margin_technologies:
-
+  BIO : 90
+  CCG : 90
+  COA : 90
+  COG : 50
+  CSP : 30
+  GEO : 90
+  HYD : 30
+  OCG : 90
+  OIL : 90
+  OTH : 90
+  PET : 90
+  SPV : 0
+  URN : 90
+  WAS : 90
+  WAV : 10
+  WOF : 10
+  WON : 10
 emission_limit:
 - - CO2
   - GUY
