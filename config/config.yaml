@@ -102,7 +102,7 @@ seasons:
   - 12
 timeshift: 3
 geographic_scope:
-- SUR
+- GUY
 crossborderTrade: true
 transmission_existing: true
 transmission_planned: true
@@ -110,7 +110,7 @@ storage_existing: true
 storage_planned: true
 emission_penalty:
 - - CO2
-  - SUR
+  - GUY
   - 2021
   - 2050
   - 2.1
@@ -175,7 +175,7 @@ reserve_margin_technologies:
   WON: 10
 emission_limit:
 - - CO2
-  - SUR
+  - GUY
   - LINEAR
   - 2050
   - 0
