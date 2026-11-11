@@ -418,7 +418,7 @@ def main(
         columns=["TIMESLICE", "DAILYTIMEBRACKET"],
     )
     df_lh.loc[
-        df_lh["TIMESLICE"].str[3:].astype(int) == df_lh["DAILYTIMEBRACKET"], "VALUE"
+        df_lh["TIMESLICE"].str[-2:].astype(int) == df_lh["DAILYTIMEBRACKET"], "VALUE"
     ] = 1
     df_lh.fillna(0, inplace=True)
     df_lh.to_csv(os.path.join(output_data_dir, "Conversionlh.csv"), index=None)
